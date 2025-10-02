@@ -57,8 +57,8 @@ const listOfSongs = [
 function Body() {
   return (
     <div className='bg-red-200 h-screen flex gap-4 p-4'>
-      {listOfSongs.map(song=>(
-        <Card title={song.title} artist={song.artist} genre={song.genre}/>
+      {listOfSongs.map((song, index)=>(
+        <Card key={index} title={song.title} artist={song.artist} genre={song.genre}/>
       ))}
     </div>
   )
