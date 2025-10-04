@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="bg-white p-8 text-center flex justify-between items-center">
+    <div className="bg-white px-32 py-5 text-center flex justify-between items-center">
       <div>
         <p className="font-bold text-black text-2xl">SPOTIFY TRACK PICKER</p>
       </div>
