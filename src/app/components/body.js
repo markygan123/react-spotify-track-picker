@@ -81,7 +81,7 @@ function Body() {
       </div>
 
       {/*   // collection */}
-      <div className="bg-red-200 h-screen flex gap-4 p-4">
+      <div className="bg-gray-200 px-32 max-w-screen flex flex-wrap gap-30 p-4 justify-between min-h-max">
         {listOfSongs.map((song, index) => (
           <Card
             key={index}
